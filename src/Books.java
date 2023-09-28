@@ -4,6 +4,7 @@ public class Books {
     private String ISBN;
     //array initialization
     Books[]bookcollection=new Books[10];
+    Books[]bookcollection1=new Books[10];
     public Books(String title, String author, String ISBN) {
         this.title = title;
         this.author = author;
