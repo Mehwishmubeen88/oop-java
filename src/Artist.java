@@ -29,7 +29,7 @@ public class Artist {
         return rating;
     }
     public String toString(){
-        String A=String.format("%s,%s,%f",name,nationality,rating);
+        String A=String.format("%10s%15s%12f",name,nationality,rating);
         return A;
     }
 }

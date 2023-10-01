@@ -26,6 +26,7 @@ public class Demo {
         list[4]=M5;
         for(int i=0;i<=4;i++){
             System.out.println(list[i]);*/
+
         System.out.println(M2);
         System.out.println("input from user");
             Scanner sc=new Scanner(System.in);
@@ -53,7 +54,7 @@ public class Demo {
 //        a.setName(name);
 //        a.setNationality(nationality);
 //        a.setRating(rating);
-
+     
         Music M1=new Music(title,new Artist(name,nationality,rating),duration,genera,albumNmae,new Date(releasedate,releasemoth,releaseyear));
         System.out.println(M1);
 

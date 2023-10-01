@@ -66,7 +66,7 @@ public class Music {
         this.releaseDate = releaseDate;
     }
         public String toString() {
-            String M= String.format("%-8s%50s%-50d%5s%5s%5s", title, artist, duration, genera, albumName, releaseDate);
+            String M= String.format("%s %30s %10s%10s%10s%20s", title, artist, duration, genera, albumName, releaseDate);
         return M;
         }
     }
