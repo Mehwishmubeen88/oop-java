@@ -1,12 +1,12 @@
 public class Books {
     String ISBN;
     String Title;
-
+//__constructor
     public Books(String ISBN, String Title) {
         this.ISBN = ISBN;
         this.Title = Title;
     }
-
+//___setters and getters
     public String getISBN() {
         return ISBN;
     }
