@@ -1,31 +1,20 @@
- public class Book {
+public class Book extends LibraryItem{
 
-     // private, public , , protected
-     private String title;
-     private String author;
-     public void setTtile(String t1) {
-         title = t1;
-     }
+    private int pageCount;
 
-     public void setAuthor(String author1) {
-         author = author1;
-     }
+    public Book(String title, String author, int year,LibraryItemType itemType, int pageCount) {
+        super(String title, String author,int year,LibraryItemType itemType);
+        this.pageCount = pageCount;
+    }
 
-     public String getTitle() {
-         return title;
-     }
+    public int getPageCount() {
+        return pageCount;
+    }
 
-     public String getAuthor() {
-         return author;
-     }
-
-
-     public static void main(String[] args) {
-Book b1=new Book();
-b1.setAuthor("sara");
-         System.out.println(b1.getAuthor());
-      ;
-         }
-     }
-
-
+    public void setPageCount(int pageCount) {
+        this.pageCount = pageCount;
+    }
+    // book objects
+    Book book4 =new Book("intro to java","paul", 2008,BOOK,400);
+    Book book5 =new Book("intro to C","harvey", 2016,BOOK,500);
+}

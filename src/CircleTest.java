@@ -58,7 +58,7 @@ class Circle {
 
     public class CircleTest {
         public static void main(String[] args) {
-            Circle c1=new Circle(0,0,020);
+            Circle c1=new Circle(0,0,20);
             Circle c2=new Circle(10,10,25);
 
 //        Circle c3=new Circle(c1.getRadius());
@@ -75,7 +75,7 @@ class Circle {
 //        System.out.println(c2+":"+c2.calArea());
 
             Circle temp=Circle.getLargestCircle(c1,c2);
-         //   temp.setRadius(10);
+           temp.setRadius(10);
 
 //            System.out.println("temp"+temp.calArea());
 //            System.out.println("c1"+c1.calArea());

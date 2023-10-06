@@ -1,21 +1,23 @@
 import java.util.Scanner;
 public class Demo {
     public static void main(String[] args) {
-       Music M2=new Music("zoo",new Artist("rana","pakistan",7),2,"pop","zoo",new Date(1,2,22));
-      /*  Music M2=new Music("zoo",new Artist("jerry","india",5),4,"pop","tom1",new Date(23,2,2019));
-        Music M3=new Music("butter",new Artist("BTS","Korea",8),3,"kpop","butter",new Date(2,3,2022));
-       Music M4=new Music("dynamite",new Artist("BTS","korea",7),4,"kpop","dynamite",new Date(2,4,2022));
-       Music M5=new Music("lalisa",new Artist("lisa","korea",4),6,"kpop","lalisa",new Date(2,8,2018));
-          if (M1.getTitle()==(M2.getTitle())){
-              System.out.println("objects are equal");
-          }else {
-              System.out.println("objects are not equal");
-          }
-        if (M4.getTitle()==(M5.getTitle())){
+        Music M1 = new Music("butter", new Artist("rana", "pakistan", 7), 2, "pop", "zoo", new Date(1, 2, 22));
+        Music M2 = new Music("zoos", new Artist("jerry", "india", 5), 4, "pop", "tom1", new Date(23, 2, 2019));
+        Music M3 = new Music("butter", new Artist("BTS", "Korea", 8), 3, "kpop", "butter", new Date(2, 3, 2022));
+        Music M4 = new Music("dynamite", new Artist("BTS", "korea", 7), 4, "kpop", "dynamite", new Date(2, 4, 2022));
+        Music M5 = new Music("lalisa", new Artist("lisa", "korea", 4), 6, "kpop", "lalisa", new Date(2, 8, 2018));
+        if (M1.getTitle() == (M2.getTitle())) {
             System.out.println("objects are equal");
-        }else {
+        } else {
             System.out.println("objects are not equal");
         }
+
+        /*if (M4.getTitle()==(M5.getTitle())){
+            System.out.println("objects are equal");
+        }
+        else
+         System.out.println("objects are not equal");
+
         System.out.println(M1);
 
         Music list[]=new Music[6];
@@ -25,7 +27,7 @@ public class Demo {
         list[3]=M4;
         list[4]=M5;
         for(int i=0;i<=4;i++){
-            System.out.println(list[i]);*/
+            System.out.println(list[i]);
 
         System.out.println(M2);
         System.out.println("input from user");
@@ -60,5 +62,6 @@ public class Demo {
 
 
         }
+    }*/
     }
-
+    }
